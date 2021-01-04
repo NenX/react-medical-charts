@@ -21,7 +21,7 @@ const App = () => {
   const [data, setData] = useState([])
   return (
     <div style={{ width: '50vw', height: '50vh' }}>
-      <Partogram data={data} />
+      <Partogram data={data} startTime="2019-09-01 06:30" wrapStyle={{width:800, height:450}} />
       <button onClick={() => {
         const item = d.shift()
         if (item) {
@@ -39,9 +39,11 @@ export default App
 
 ### Props
 
-| Parameter | Description                        | Type    |
-| :-------- | :--------------------------------- | :------ |
-| data      | chart data                         | IData[]   |
+| Parameter | Description            | Type                  |
+| :-------- | :--------------------- | :-------------------- |
+| data      | chart data             | IData[]               |
+| startTime | the start-time of data | string                |
+| wrapStyle | width & height control | React.CSSProperties[] |
 
 ### Parameter Interface
 ```typescript
