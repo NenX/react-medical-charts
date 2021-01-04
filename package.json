@@ -1,7 +1,7 @@
 {
   "name": "react-medical-charts",
-  "version": "1.0.4",
-  "description": "react component",
+  "version": "1.0.5",
+  "description": "react medical chart components",
   "author": "NenX",
   "license": "MIT",
   "repository": "NenX/react-medical-charts",
