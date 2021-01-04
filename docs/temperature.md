@@ -9,8 +9,8 @@
 ```js
 import React from 'react'
 
-import { Temperature } from 'react-medical-chart'
-import 'react-medical-chart/dist/index.css'
+import { Temperature } from 'react-medical-charts'
+import 'react-medical-charts/dist/index.css'
 
 const App = () => {
   return <Temperature data={{
@@ -214,3 +214,6 @@ export interface IData {
 ```
 
 
+
+## preview
+![preview](docs/temperature.jpg)

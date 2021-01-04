@@ -59,4 +59,4 @@ export interface IData {
 
 
 ## preview
-![preview](docs/preview.jpg)
+![preview](docs/partogram.jpg)
