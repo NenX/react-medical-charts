@@ -1,0 +1,37 @@
+/* add css module styles here (optional) */
+
+.table {
+  border-collapse: collapse;
+  position: relative;
+}
+.table text {
+  font-size: 10px;
+}
+.table tr td:nth-of-type(1){
+  text-align: justify;
+  text-align-last:justify;
+
+}
+.table tr {
+  box-sizing: border-box;
+  height: 14px;
+  line-height: 14px;
+}
+.table tr td{
+  /* border: 1px solid #ccc; */
+  font-size: 12px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #666;
+  position: relative;
+
+}
+.table [data-border-right="true"] {
+  border-right-color: red !important;
+}
+.table [data-border-bottom="true"] td {
+  border-bottom-color: red !important;
+}
+
